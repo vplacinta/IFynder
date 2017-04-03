@@ -4,15 +4,12 @@ import com.llc.ifynder.login.LoginFragment;
 import com.llc.ifynder.login.RegisterFragment;
 import com.llc.ifynder.login.TermsAndConditionsFragment;
 
-import javax.inject.Singleton;
+import dagger.Subcomponent;
 
-import dagger.Component;
-
-@Singleton
-@Component(modules = {ApplicationModule.class})
-public interface ApplicationComponent {
+@Subcomponent(modules = {LoginModule.class})
+public interface LoginComponent {
+    void inject(LoginActivity target);
     void inject(LoginFragment target);
-    void inject(RegisterFragment target);
     void inject(TermsAndConditionsFragment target);
-    LoginComponent add(LoginModule loginModule);
+    void inject(RegisterFragment target);
 }

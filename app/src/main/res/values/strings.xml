@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IFynder</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
 </resources>
