@@ -1,6 +1,12 @@
-package com.llc.ifynder;
+package com.llc.ifynder.di;
 
-import javax.inject.Inject;
+import com.llc.ifynder.ApplicationComponent;
+import com.llc.ifynder.ApplicationModule;
+import com.llc.ifynder.DaggerApplicationComponent;
+import com.llc.ifynder.FynderApplication;
+import com.llc.ifynder.login.LoginActivity;
+import com.llc.ifynder.login.LoginComponent;
+import com.llc.ifynder.login.LoginModule;
 
 public enum Injector {
 

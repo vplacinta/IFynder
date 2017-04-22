@@ -1,8 +1,7 @@
-package com.llc.ifynder;
+package com.llc.ifynder.login;
 
-import com.llc.ifynder.login.LoginFragment;
-import com.llc.ifynder.login.RegisterFragment;
-import com.llc.ifynder.login.TermsAndConditionsFragment;
+import com.llc.ifynder.register.RegisterFragment;
+import com.llc.ifynder.register.RegisterProfileFragment;
 
 import dagger.Subcomponent;
 
@@ -12,4 +11,5 @@ public interface LoginComponent {
     void inject(LoginFragment target);
     void inject(TermsAndConditionsFragment target);
     void inject(RegisterFragment target);
+    void inject(RegisterProfileFragment target);
 }

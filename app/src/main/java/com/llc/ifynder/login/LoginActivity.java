@@ -1,8 +1,11 @@
-package com.llc.ifynder;
+package com.llc.ifynder.login;
 
 import android.os.Bundle;
-import android.view.Window;
 
+import com.llc.ifynder.R;
+import com.llc.ifynder.ScreenNavigation;
+import com.llc.ifynder.base.BaseActivity;
+import com.llc.ifynder.di.Injector;
 import com.llc.ifynder.login.LoginFragment;
 
 import javax.inject.Inject;
@@ -16,7 +19,12 @@ public class LoginActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Injector.INSTANCE.initLoginComponent(this);
-        screenNavigation.switchFragment(LoginFragment.newInstance(),R.id.login_container,false);
+        screenNavigation.switchFragment(LoginFragment.newInstance(), R.id.login_container,false);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+
     }
 
     @Override

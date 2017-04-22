@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
-    tools:context="com.llc.ifynder.LoginActivity"
+    tools:context="com.llc.ifynder.login.LoginActivity"
     android:id="@+id/login_container">
 
 </FrameLayout>

@@ -4,4 +4,15 @@
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="register">REGISTER</string>
+    <string name="new_to_ifynder">New to iFynder?</string>
+    <string name="login_with">Login with</string>
+    <string name="terms_and_conditions_text"><![CDATA[Your submission of information on this Site to make a search is subject to iFynder’s Global Privacy Policy for Guests, which is hereby incorporated into the Terms & Conditions. Any communications such as searches, questions, comments, suggestions and similar communications submitted by you to iFynder are not confidential communications, and iFynder shall be free to use, reproduce, publish, distribute, and disclose such communications. IFynder is also free to use for any purpose whatsoever any ideas, concept, content, techniques, or know-how in such communications without limitation and without any obligations to you. Availability The Site is available to anyone with Internet access. However, the Site may not be continuously available due to maintenance or repairs or due to computer problems or crashes, disruption in Internet service or other unforeseen circumstances. The Site contains information on iFynder services, not all of which are available in every location. A reference to a product or service on the Site does not imply that such product or service is or will be available in your location. The content of the Site, including advertising content, is intended for use and display only where its use and display are permissible in accordance with applicable laws and regulations. Each product or service is void where prohibited by law.]]></string>
+    <string name="show_password">Show Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="agree">I Agree</string>
+    <string name="terms_and_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="logo">Logo</string>
+    <string name="hide_password">Hide Password</string>
 </resources>

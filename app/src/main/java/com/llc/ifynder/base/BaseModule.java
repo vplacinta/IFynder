@@ -1,4 +1,6 @@
-package com.llc.ifynder;
+package com.llc.ifynder.base;
+
+import com.llc.ifynder.ScreenNavigation;
 
 import dagger.Module;
 import dagger.Provides;

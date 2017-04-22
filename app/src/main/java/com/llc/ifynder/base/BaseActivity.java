@@ -1,4 +1,4 @@
-package com.llc.ifynder;
+package com.llc.ifynder.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
